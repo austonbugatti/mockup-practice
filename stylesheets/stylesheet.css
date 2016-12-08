@@ -1,0 +1,119 @@
+body {
+  color: black;
+  background-color: white;
+}
+
+header {
+  color: white;
+  background-color: black;
+  border: none;
+  margin-bottom: 0rem;
+}
+
+nav {
+  border: none;
+  border-color: none;
+  background-color: gainsboro;
+  font-weight: bold;
+  padding: 5px;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1.5rem;
+  margin-top: 0rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+a:link, a:visited {
+  color: red;
+}
+
+.header-link {
+  text-align: right;
+  width: 100%;
+  padding: 0 0 0 70%;
+}
+
+.book-now {
+  float: right;
+}
+
+section {
+  float: right;
+  width: 64%;
+  margin-right: 1rem;
+}
+
+img {
+  width: 10rem;
+}
+
+article {
+  float: right;
+  border: solid;
+  border-color: black;
+  border-width: thin;
+  margin-right: 1%;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 1%;
+}
+
+h1 {
+  margin: 0rem;
+  padding-left: 1rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+.fan-favorite {
+  padding-top: 2rem;
+}
+
+.premiere {
+  color: grey;
+  margin: 0rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+h4{
+  margin: 0;
+}
+
+.meow {
+  font-style: italic
+}
+
+.meow2 {
+  font-style: italic;
+  padding: 1rem 0 0 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+footer {
+  color: white;
+  background-color: black;
+  float: left;
+  width: 100%;
+  padding: 1rem;
+}
+
+.footeralign {
+  text-align: center;
+}
